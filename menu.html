@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #333;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+        a:hover {
+            color: #fcd116;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: #222;
+        }
+        .navbar a {
+            float: center;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #444;
+        }
+        .navbar a .fa {
+            margin-right: 5px;
+        }
+        h1 {
+            color: #fcd116;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+        .menu-images {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            justify-items: center;
+            margin: 20px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out;
+        }
+        img:hover {
+            transform: scale(1.05);
+        }
+        h4 {
+            background-color: #333;
+            color: #999;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+        b {
+            color: #fcd116;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html"><i class="fas fa-home"></i> Home</a>
+    </div>
+    <h1><b>Menu Food Items</b></h1>
+    <div class="menu-images">
+        <img src="images/menu2.jpg"/>
+        <img src="images/menu1.jpg"/>
+        <img src="images/menu3.png"/>
+        <!-- Add more menu images here -->
+    </div>
+    <h4>
+        This is made by: <b>vinod gupta</b>
+    </h4>
+</body>
+</html>
